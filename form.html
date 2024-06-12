@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>Video Upload</title>
+	</head>
+	<body>
+        <nav>
+            <a href="./index.html">Home</a>
+			<a href="./Pages/finalFantasy.html">Final Fantasy</a>
+			<a href="./Pages/remnantTwo.html">Remnant II</a>
+			<a href="/Pages/gundams.html">Gundams</a>
+			<a href="./form.html">New Videos</a>
+        </nav>
+		<form>
+			<h1>Want to add your own video?</h1>
+			<div>
+				<label for="videoTitle"> <h3>Video Title</h3></label>
+				<input
+					type="text"
+					id="videoTitle"
+					required />
+			</div>
+			<div>
+				<label for="videoDescription"><h3>Description</h3></label>
+				<textarea
+					name="Description"
+					id="videoDescription"
+					rows="6"
+					cols="30">
+Tell us about he video</textarea
+				required>
+			</div>
+            <div>
+                <label for="videoUpload"><h3>Video Upload</h3></label>
+                <input type="file" multiple required>
+            </div>
+            <br>
+            <div>
+                <label for="videoChoice"><h3>Which Collection are you adding to?</h3></label>
+                <select id="videoChocie" name="Collections" required>
+                    <option value="finalFantasy">Final Fantasy</option>
+                    <option value="remnantTwo">Remnant Two</option>
+                    <option value="gundams">Gundams</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <input type="radio" name="security" id="public" value="public" required>
+                <label for="public">Public</label>
+                <input type="radio" name="security" id="private" value="private" required>
+                <label for="private">Private</label>
+            </div>
+            <br><br>
+            <input type="submit" value="Upload Video">
+		</form>
+	</body>
+</html>
