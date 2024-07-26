@@ -1,42 +1,51 @@
 html {
-	background-color: black;
-	color: white;
-	margin: 10px;
+  background-color: black;
+  color: white;
+  margin: 10px;
 }
 a {
-	padding: 10px;
+  padding: 10px;
 }
 nav {
-	background-color: black;
-	color: whitesmoke;
-	text-align: center;
-	padding-inline: 50px;
+  background-color: black;
+  color: whitesmoke;
+  text-align: center;
+  padding-inline: 50px;
 }
 #parallaxFF {
-	background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0569714b-9454-41d2-8fac-1c4af1de457a/d54rew7-34ff0070-f017-49e8-ae99-170cc787adb3.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzA1Njk3MTRiLTk0NTQtNDFkMi04ZmFjLTFjNGFmMWRlNDU3YVwvZDU0cmV3Ny0zNGZmMDA3MC1mMDE3LTQ5ZTgtYWU5OS0xNzBjYzc4N2FkYjMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.VquBgJmpspXCID1dk62FJWtSKtUjZzLwW-hDFhyUfLA);
-	height: 100%;
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0569714b-9454-41d2-8fac-1c4af1de457a/d54rew7-34ff0070-f017-49e8-ae99-170cc787adb3.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzA1Njk3MTRiLTk0NTQtNDFkMi04ZmFjLTFjNGFmMWRlNDU3YVwvZDU0cmV3Ny0zNGZmMDA3MC1mMDE3LTQ5ZTgtYWU5OS0xNzBjYzc4N2FkYjMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.VquBgJmpspXCID1dk62FJWtSKtUjZzLwW-hDFhyUfLA);
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #parallaxR2 {
-	background-image: url(https://www.gamespot.com/a/uploads/original/679/6794662/4170580-4168821-4167023-remnant2-hunterarchetyperevealtrailer2-46screenshot.jpg);
-	height: 100%;
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+  background-image: url(https://www.gamespot.com/a/uploads/original/679/6794662/4170580-4168821-4167023-remnant2-hunterarchetyperevealtrailer2-46screenshot.jpg);
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #parallaxGun {
-	background-image: url(https://boundingintocomics.com/wp-content/uploads/2021/06/2021.06.20-10.16-boundingintocomics-60cfbe4d2a835.png);
-	height: 100%;
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+  background-image: url(https://boundingintocomics.com/wp-content/uploads/2021/06/2021.06.20-10.16-boundingintocomics-60cfbe4d2a835.png);
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+form {
+  margin: 12%;
+  border: 2px solid white;
+  text-align: center;
+  background-image: url(https://cdn.pixabay.com/photo/2020/07/02/04/31/matrix-5361690_1280.png);
+}
+#formPage {
+  background-image: url(https://live.staticflickr.com/54/128300783_81834c91fa_b.jpg);
 }
 footer {
-	background-color: aliceblue;
-	color: black;
+  background-color: aliceblue;
+  color: black;
 }
