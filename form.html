@@ -8,7 +8,7 @@
 			content="width=device-width, initial-scale=1.0" />
 		<title>Video Upload</title>
 	</head>
-	<body>
+	<body id="formPageBody">
         <nav>
             <a href="./index.html">Home</a>
 			<a href="./Pages/finalFantasy.html">Final Fantasy</a>
@@ -16,8 +16,8 @@
 			<a href="/Pages/gundams.html">Gundams</a>
 			<a href="./form.html">New Videos</a>
         </nav>
-		<div id="submissionPage">
-		<form>
+	<div id="formImage">
+			<form>
 			<h1>Want to add your own video?</h1>
 			<div>
 				<label for="videoTitle"> <h3>Video Title</h3></label>
@@ -26,7 +26,7 @@
 					id="videoTitle"
 					required />
 			</div>
-			<div>
+			<div class="formText">
 				
 				<label for="videoDescription"><h3>Description</h3></label>
 				<textarea
@@ -37,12 +37,12 @@
 Tell us about he video</textarea
 				required>
 			</div>
-            <div>
+            <div class="formText">
                 <label for="videoUpload"><h3>Video Upload</h3></label>
                 <input type="file" multiple required>
             </div>
             <br>
-            <div>
+            <div class="formText">
                 <label for="videoChoice"><h3>Which Collection are you adding to?</h3></label>
                 <select id="videoChocie" name="Collections" required>
                     <option value="finalFantasy">Final Fantasy</option>
@@ -51,14 +51,16 @@ Tell us about he video</textarea
                 </select>
             </div>
             <br>
-            <div>
+            <div class="formText">
                 <input type="radio" name="security" id="public" value="public" required>
                 <label for="public">Public</label>
                 <input type="radio" name="security" id="private" value="private" required>
                 <label for="private">Private</label>
             </div>
             <br><br>
+			<div class="formText">
             <input type="submit" value="Upload Video">
+		</div>
 		</form>
 	</div>
 	</body>

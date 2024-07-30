@@ -1,8 +1,3 @@
-html {
-	background-color: black;
-	color: white;
-	margin: 10px;
-}
 a {
 	padding: 10px;
 }
@@ -11,6 +6,9 @@ nav {
 	color: whitesmoke;
 	text-align: center;
 	padding-inline: 50px;
+	position: fixed;
+	width: 100%;
+	height: 20px;
 }
 #parallaxFF {
 	background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0569714b-9454-41d2-8fac-1c4af1de457a/d54rew7-34ff0070-f017-49e8-ae99-170cc787adb3.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzA1Njk3MTRiLTk0NTQtNDFkMi04ZmFjLTFjNGFmMWRlNDU3YVwvZDU0cmV3Ny0zNGZmMDA3MC1mMDE3LTQ5ZTgtYWU5OS0xNzBjYzc4N2FkYjMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.VquBgJmpspXCID1dk62FJWtSKtUjZzLwW-hDFhyUfLA);
@@ -38,18 +36,45 @@ nav {
 	background-size: cover;
 }
 form {
-	margin: 12%;
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-top: 50px;
+	padding-left: 10%;
+	padding-right: 10%;
 	border: 2px solid white;
 	text-align: center;
+	/* background-image: url(https://cdn.pixabay.com/photo/2020/07/02/04/31/matrix-5361690_1280.png);
+	background-attachment: static;
+	background-repeat: repeat;
+	background-size: cover; */
+	position: fixed;
+}
+form:hover {
+	scroll-behavior: auto;
 	background-image: url(https://cdn.pixabay.com/photo/2020/07/02/04/31/matrix-5361690_1280.png);
-	background-attachment: fixed;
-	height: 100%;
+	background-attachment: static;
+	background-repeat: repeat;
+	background-size: cover;
 }
-#sumbmissionPage {
+#formPageBody {
 	background-image: url(https://live.staticflickr.com/54/128300783_81834c91fa_b.jpg);
-	background-attachment: fixed;
-	height: 100%;
+	color: white;
+	height: 200vh;
+	width: 100vh;
+	/* position: relative; */
+	/* top: 0; */
+	background-repeat: repeat;
+	background-size: 25%;
+	margin: 0;
+	background-position: center;
 }
+.submit {
+	size: 200px;
+}
+.formText {
+	color: white;
+}
+
 footer {
 	background-color: aliceblue;
 	color: black;
