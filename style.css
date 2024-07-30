@@ -2,13 +2,35 @@ a {
 	padding: 10px;
 }
 nav {
+	top: 0;
 	background-color: black;
 	color: whitesmoke;
 	text-align: center;
-	padding-inline: 50px;
 	position: fixed;
 	width: 100%;
-	height: 20px;
+	position-anchor: top;
+	z-index: 1000;
+}
+body {
+	/* placeholder */
+}
+.parallaxText {
+	color: whitesmoke;
+}
+.table {
+	display: table;
+	width: 100%;
+	border-collapse: collapse;
+}
+.tableRow {
+	display: table-row;
+}
+.tableCell {
+	display: table-cell;
+	border: 1px solid #333;
+	padding: 10px;
+	text-align: left;
+	width: 50%;
 }
 #parallaxFF {
 	background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0569714b-9454-41d2-8fac-1c4af1de457a/d54rew7-34ff0070-f017-49e8-ae99-170cc787adb3.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzA1Njk3MTRiLTk0NTQtNDFkMi04ZmFjLTFjNGFmMWRlNDU3YVwvZDU0cmV3Ny0zNGZmMDA3MC1mMDE3LTQ5ZTgtYWU5OS0xNzBjYzc4N2FkYjMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.VquBgJmpspXCID1dk62FJWtSKtUjZzLwW-hDFhyUfLA);
@@ -28,7 +50,7 @@ nav {
 	background-size: cover;
 }
 #parallaxGun {
-	background-image: url(https://boundingintocomics.com/wp-content/uploads/2021/06/2021.06.20-10.16-boundingintocomics-60cfbe4d2a835.png);
+	background-image: url(https://cdn.openart.ai/published/aG1ymuC2m2TNVvkdzZko/KYxBYY0V_hhq-_512.webp);
 	height: 100%;
 	background-attachment: fixed;
 	background-position: center;
